@@ -1,3 +1,5 @@
+/*jshint -W117*/
+
 var app = angular.module("angularApp", ['ngMaterial', 'firebase']);
 
 app.controller("mainCtrl", ['$scope', '$firebaseArray', function ($scope, $firebaseArray){
