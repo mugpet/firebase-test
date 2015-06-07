@@ -16,6 +16,7 @@ app.controller("mainCtrl", ['$scope', '$firebaseArray', '$firebaseAuth',
 
         // Facebook authentication:
         // more info: https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-users-and-authentication-authwithoauthpopupprovider-options
+        // more on $firebaseAuth directive/service/provider : https://www.firebase.com/docs/web/libraries/angular/guide/user-auth.html
 
         // https://auth.firebase.com/v2/mpe-firebase-test/auth/facebook/callback
         // app id: 1600944563506157
