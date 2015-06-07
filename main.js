@@ -11,5 +11,6 @@ app.controller("mainCtrl", ['$scope', '$firebaseArray', function ($scope, $fireb
 
 
 	// https://mpe-firebase-test.firebaseio.com/
+    // another comment
 	
 }]);
