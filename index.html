@@ -11,12 +11,15 @@
 		<script src="bower_components/angular-material/angular-material.js"></script>
 		<script src="bower_components/firebase/firebase.js"></script>
 		<script src="bower_components/angularfire/dist/angularfire.js"></script>
-		<script src="main.js></script>
+		<script src="main.js"></script>
 	</head>
+	
 	<body ng-app="angularApp" ng-controller="mainCtrl">
 		{{ welcome }}
 		
-		
+		<ul>
+			<li ng-repeat="m in messages">{{ m.msg }}</li>
+		</ul>
 	</body>
 
 </html>
