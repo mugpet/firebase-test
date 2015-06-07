@@ -1,0 +1,11 @@
+
+  'angular-animate': 'bower_components/angular-animate/angular-animate.js',
+  'angular-aria': 'bower_components/angular-aria/angular-aria.js',
+  'angular-material': [
+    'bower_components/angular-material/angular-material.js',
+    'bower_components/angular-material/angular-material.css'
+  ],
+  firebase: 'bower_components/firebase/firebase.js',
+  angular: 'bower_components/angular/angular.js',
+  angularfire: 'bower_components/angularfire/dist/angularfire.js'
+
