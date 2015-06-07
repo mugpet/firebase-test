@@ -8,5 +8,6 @@ app.controller("mainCtrl", ['$scope', '$firebaseArray', function ($scope, $fireb
 	$scope.messages = $firebaseArray(ref);
 
 
+	// https://mpe-firebase-test.firebaseio.com/
 	
 }]);
