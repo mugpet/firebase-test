@@ -124,9 +124,11 @@ app.controller("mainCtrl", ['$scope', '$firebaseArray', '$firebaseAuth', 'Auth',
             $scope.authData = authData;
         });
 
-        //   $scope.authObj = $firebaseAuth(ref);
-
         console.log("start");
+
+          var ref = new Firebase("https://mpe-firebase-test.firebaseio.com");
+        
+
 
         $scope.getAuth = function() {
 
@@ -136,7 +138,8 @@ app.controller("mainCtrl", ['$scope', '$firebaseArray', '$firebaseAuth', 'Auth',
                 $scope.profileImageUrl = $scope.authData.facebook.cachedUserProfile.picture.data.url;
                 console.log("Logged in as:", $scope.authData.facebook.displayName);
                 console.log(JSON.stringify($scope.authData));
-            } else {
+              $scope.messages = $firebaseArray(ref);
+    } else {
                 console.log("Logged out");
             }
         };
