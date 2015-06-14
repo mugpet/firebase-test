@@ -1,0 +1,9 @@
+{
+  "firebase": "mpe-firebase-test",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
